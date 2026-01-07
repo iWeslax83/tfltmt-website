@@ -54,7 +54,7 @@ export const projects: Project[] = [
     slug: "fpv-doner-kanat-iha",
     name: "FPV Döner Kanat İHA",
     competition: "MEB Robot FPV İnsansız Hava Aracı Yarışması - İHA Döner Kanat Kategorisi",
-    icon: Helicopter,
+    icon: Drone,
     description:
       "Gerçek zamanlı FPV görüntü aktarımı, yüksek manevra kabiliyeti ve yarış senaryolarına özel tasarlanmış FPV drone.",
     longDescription:
