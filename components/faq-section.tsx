@@ -6,82 +6,17 @@ import { ChevronDown } from "lucide-react"
 
 const faqItems = [
   {
-    category: "Kulube Katilim",
+    category: "Kulübe Katılım",
     items: [
       {
-        question: "TMT kulubune nasil katilabilirim?",
+        question: "TMT kulübüne nasıl katılabilirim?",
         answer:
-          "Kulubune katilmak icin basvuru formunu doldurmaniz yeterli. Formu iletisim bolumunde bulabilirsiniz. Yilda belirli tarihler arasinda basvuru kabul edilir.",
-      },
-      {
-        question: "Bocek uzuntune katilabilirim?",
-        answer:
-          "Evet! TMT, 9., 10., 11. ve 12. sinif ogrencilerine aciktir. Her bolumde yeni uyeler icin yer bulunmaktadir.",
+          "Katılmak için başvuru formunu doldurmanız yeterli. Formu iletişim bölümünde bulabilirsiniz.",
       },
       {
         question: "Teknik bilgi sahibi olmam gerekir mi?",
         answer:
-          "Hayir, temel bilgilerin olmasi yeterli. Deneyimsiz uyelere mentorler tarafindan kapsamli egitim verilmektedir.",
-      },
-    ],
-  },
-  {
-    category: "Projeler",
-    items: [
-      {
-        question: "TEKNOFEST nedir?",
-        answer:
-          "TEKNOFEST, Turk Havaciligi ve Uzay Endustrisinin insansiz hava araci kategorisinde duzenlenen ulusal bir yarismadir. TMT, bu yarismalara katilarak drone teknolojisini gelistirmektedir.",
-      },
-      {
-        question: "VEX Robotics nedir?",
-        answer:
-          "VEX Robotics, uluslararasi bir robot tasarim ve yarisma platformudur. Ogrenciler mekanik, elektronik ve yazilimi birlestirerek rekabetci robotlar tasarlarlar.",
-      },
-      {
-        question: "Projeleriniz hangi yazilimlar kullanilarak yapiliyor?",
-        answer:
-          "TEKNOFEST drone projesinde C++, Python ve ROS (Robot Operating System) kullanilmaktadir. VEX projesinde VEXCode ve RobotC gibi platformlar kullanilmaktadir.",
-      },
-    ],
-  },
-  {
-    category: "Teknik Sorular",
-    items: [
-      {
-        question: "Drone havada nasil kaliyor?",
-        answer:
-          "Droneler dort motorlu pervaneler ile havada kalinir. Motorlarin donme hizi dinamik olarak ayarlanarak irtifa, yon ve hiz kontrol edilir.",
-      },
-      {
-        question: "FPV droneyi kontrol etmek zor mu?",
-        answer:
-          "Baslangicta zor olabilir, ancak egitim ve pratik ile kolaydir. TMT, yeni uyelere FPV drone pilotlugu egitimi vermektedir.",
-      },
-      {
-        question: "Yazilim bolumund neler ogrenirim?",
-        answer:
-          "Yazilim bolumunde C++, Python, ROS, embedded systems, goruntu isleme ve otonom sistem gelistirme hakkinda bilgi edindiriliyor.",
-      },
-    ],
-  },
-  {
-    category: "Genel Sorular",
-    items: [
-      {
-        question: "TMT yilda kac kez toplanir?",
-        answer:
-          "TMT haftalik olarak toplanir. Toplanim gunleri bolume gore degisebilmektedir. Detaylar icin Instagram sayfamizi takip edebilirsiniz.",
-      },
-      {
-        question: "Sponsorluk ucun nasil iletisime gecebilirim?",
-        answer:
-          "Sponsorluk hakkinda bilgi almak icin iletisim formunu kullanarak bize ulasilabilir. Sponsorluk paketlerimiz hakkinida bilgi verecegiz.",
-      },
-      {
-        question: "TMT disinya acik etkinlikleri var mi?",
-        answer:
-          "Evet, TMT yil boyunca workshop, seminer ve demo etkinlikleri duzenler. Bu etkinlikler genellikle Instagram sayfamizda duyurulur.",
+          "Hayır, temel bilgilerinizin ve merakınızın olması yeterli. Deneyimsiz üyelere deneyimli üyeler tarafından eğitim verilmektedir.",
       },
     ],
   },
@@ -99,9 +34,9 @@ export function FAQSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-balance">Sik Sorulan Sorular</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-balance">Sık Sorulan Sorular</h2>
             <p className="text-lg text-muted-foreground text-pretty leading-relaxed">
-              TMT hakkinda merak ettiklerinizi burada bulabilirsiniz. Cevabinizi bulamassaniz bize ulasin.
+              TMT hakkında merak ettiklerinizi burada bulabilirsiniz. Cevabınızı bulamazsanız bize ulaşın.
             </p>
           </div>
 
@@ -154,12 +89,12 @@ export function FAQSection() {
           <Card className="bg-primary/5 border-primary/20">
             <CardContent className="pt-6">
               <div className="text-center">
-                <p className="text-sm text-muted-foreground mb-4">Sorununuzun cevabini bulamadin mi?</p>
+                <p className="text-sm text-muted-foreground mb-4">Sorununuzun cevabını bulamadın mı?</p>
                 <p className="text-foreground font-semibold">
                   <a href="#contact" className="text-primary hover:underline">
-                    Bize ulasin
+                    Bize ulaşın
                   </a>{" "}
-                  - Yardimci olmaktan mutluyuz!
+                  - Yardımcı olmaktan mutluyuz!
                 </p>
               </div>
             </CardContent>

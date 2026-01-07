@@ -1,5 +1,4 @@
-import { LucideComputer as Helicopter, Cpu, type LucideIcon } from "lucide-react"
-
+import {Helicopter, Drone, Cpu, type LucideIcon } from "lucide-react"
 export interface ProjectMember {
   name: string
   role?: string
@@ -38,7 +37,7 @@ export const projects: Project[] = [
     technicalSpecs: [
       { label: "Uçuş Süresi", value: "20-25 dakika" },
       { label: "Maksimum Hız", value: "15 m/s" },
-      { label: "Yük Kapasitesi", value: "500g" },
+      { label: "Yük Kapasitesi", value: "515g" },
       { label: "Uçuş Kontrolcüsü", value: "Özel Yazılım" },
       { label: "GPS Hassasiyeti", value: "±2m" },
     ],

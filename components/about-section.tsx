@@ -34,9 +34,7 @@ export function AboutSection() {
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-balance">TMT Hakkında</h2>
             <p className="text-lg text-muted-foreground text-pretty leading-relaxed mb-8">
               Tofaş Fen Lisesi'nde kurulan TMT, robotik, havacılık ve gelişen teknolojilere odaklanan öğrenci
-              liderliğinde, proje tabanlı bir mühendislik kulübüdür. TEKNOFEST ve VEX Robotics dahil ulusal yarışmalarda
-              rekabet ediyor, mekanik tasarım, elektronik, yazılım geliştirme ve sistem entegrasyonunda uygulamalı
-              deneyim sağlıyoruz.
+              liderliğinde, proje tabanlı bir mühendislik kulübüdür.
             </p>
             <div className="bg-primary/5 border border-primary/20 rounded-lg p-6 mt-8">
               <h3 className="font-semibold text-lg mb-2 flex items-center gap-2">

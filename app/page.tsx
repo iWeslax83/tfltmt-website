@@ -16,11 +16,9 @@ export default function Page() {
       <main>
         <HeroSection />
         <StatsSection />
+        <AboutSection />
         <ProjectsSection />
         <TeamSection />
-        <AboutSection />
-        <SponsorsSection />
-        <FAQSection />
         <ContactSection />
       </main>
       <Footer />

@@ -1,7 +1,7 @@
 {
-  "name": "my-v0-project",
-  "version": "0.1.0",
-  "private": true,
+  "name": "tfltmt-website",
+  "version": "0.2.6",
+  "private": false,
   "scripts": {
     "build": "next build",
     "dev": "next dev",
