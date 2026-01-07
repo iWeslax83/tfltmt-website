@@ -48,7 +48,8 @@ export function ContactSection() {
               <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
                 <div className="text-center sm:text-left">
                   <h3 className="font-semibold text-lg mb-1 flex items-center gap-2 justify-center sm:justify-start">
-                    <UserPlus className="h-5 w-5 text-primary" />TMT Kulübüne Katılmak İster misiniz?
+                    <UserPlus className="h-5 w-5 text-primary" />
+                    TMT Kulübüne Katılmak İster misiniz?
                   </h3>
                   <p className="text-sm text-muted-foreground">
                     Başvuru formunu doldurarak ekibimize katılabilirsiniz.
