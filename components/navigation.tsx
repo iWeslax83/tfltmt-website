@@ -42,12 +42,6 @@ export function Navigation() {
             >
               Hakkımızda
             </Link>
-            <Link
-              href="/#faq"
-              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-            >
-              FAQ
-            </Link>
             <Link href="/#contact">
               <Button size="sm">İletişim</Button>
             </Link>
