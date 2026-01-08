@@ -1,4 +1,5 @@
-import {Helicopter, Drone, Cpu, type LucideIcon } from "lucide-react"
+import { LucideComputer as Helicopter, Bone as Drone, Cpu, type LucideIcon } from "lucide-react"
+
 export interface ProjectMember {
   name: string
   role?: string
@@ -17,6 +18,7 @@ export interface Project {
     value: string
   }[]
   features: string[]
+  competitionDate?: Date
   images?: {
     url: string
     caption: string
@@ -34,6 +36,7 @@ export const projects: Project[] = [
     longDescription:
       "TEKNOFEST Liseler Arası İHA Yarışması için geliştirdiğimiz quadcopter, otonom görev yetenekleri ve hassas navigasyon sistemleri ile donatılmıştır. Proje, özel uçuş kontrolcüsü yazılımı, gerçek zamanlı veri işleme ve görev planlama algoritmaları içermektedir. İHA, belirlenen görev senaryolarını başarıyla yerine getirebilecek şekilde tasarlanmış olup, yük taşıma, hedef tespit ve otonom iniş gibi kritik yeteneklere sahiptir. Daha fazla bilgi için https://www.teknofest.org/tr/yarismalar/liseler-arasi-insansiz-hava-araclari-yarismasi/",
     members: ["Emir Sakarya", "Demir Özcan", "Erdem Gümüş", "İbrahim Özdemir", "Arda Akalın"],
+    competitionDate: new Date("2025-08-01"),
     technicalSpecs: [
       { label: "Uçuş Süresi", value: "20-25 dakika" },
       { label: "Maksimum Hız", value: "15 m/s" },
@@ -60,6 +63,7 @@ export const projects: Project[] = [
     longDescription:
       "MEB İnsansız Hava Aracı Yarışması FPV Döner Kanat kategorisi için geliştirdiğimiz FPV drone, yüksek hız, hassas kontrol ve gerçek zamanlı görüntü aktarımı özelliklerine sahiptir. Yarışma kurallarına göre tasarlanan drone'umuz, belirlenen parkurları başarıyla tamamlayabilecek çevikliğe ve dayanıklılığa sahiptir. Proje kapsamında FPV sistemleri, uçuş kontrolcüsü ayarları, batarya yönetimi ve pilot eğitimi çalışmaları yapılmaktadır. Daha fazla bilgi için: https://robot.meb.gov.tr/insansiz-hava-araci/iha-yarisma-kurallari",
     members: ["Emir Sakarya", "Demir Özcan", "Erdem Gümüş", "İbrahim Özdemir", "Arda Akalın"],
+    competitionDate: new Date("2025-09-15"),
     technicalSpecs: [
       { label: "Maksimum Hız", value: "170 km/s" },
       { label: "Uçuş Süresi", value: "5-10 dk" },
@@ -84,6 +88,7 @@ export const projects: Project[] = [
     longDescription:
       "VEX Robotics V5 Pushback yarışması için geliştirdiğimiz robot, stratejik oyun analizi ve mekanik tasarım mükemmelliğini bir araya getiriyor. Robot, rakip robotları etkili şekilde iter ve oyun elemanlarını manipüle edebilecek güçlü bir yapıya sahiptir. Gelişmiş sensör entegrasyonu, PID kontrol sistemleri ve otonom mod programlaması ile tam donanımlı bir yarışma robotudur. Ekip, mekanik tasarım, yazılım geliştirme ve strateji analizi konularında kapsamlı çalışmalar yürütmüştür.",
     members: ["Demir Özcan", "Erdem Gümüş", "Emir Sakarya", "Uras Demir Demirci", "Arda Akalın"],
+    competitionDate: new Date("2026-02-01"),
     technicalSpecs: [
       { label: "Boyut", value: "18'' x 18'' x 18''" },
       { label: "Güç", value: "VEX V5 Battery (12.8V)" },

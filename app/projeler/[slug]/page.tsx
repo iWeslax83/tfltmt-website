@@ -3,8 +3,9 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { ArrowLeft, Users, Trophy } from "lucide-react"
+import { ArrowLeft, Users, Trophy, Clock } from "lucide-react"
 import { getProjectBySlug, projects } from "@/lib/project-data"
+import { CountdownTimer } from "@/components/countdown-timer"
 
 export function generateStaticParams() {
   return projects.map((project) => ({
@@ -119,6 +120,19 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
 
             {/* Sidebar */}
             <div className="space-y-6">
+              {/* Countdown Timer */}
+              {project.competitionDate && (
+                <Card className="border-primary/30 bg-gradient-to-br from-primary/5 to-accent/5">
+                  <CardContent className="p-6">
+                    <div className="flex items-center gap-2 mb-6">
+                      <Clock className="h-5 w-5 text-primary" />
+                      <h3 className="text-lg font-bold">Yarışma Sayısı</h3>
+                    </div>
+                    <CountdownTimer targetDate={project.competitionDate} label="Yarışma'ya Kalan Süre" />
+                  </CardContent>
+                </Card>
+              )}
+
               {/* Team Members */}
               {project.members.length > 0 && (
                 <Card>
