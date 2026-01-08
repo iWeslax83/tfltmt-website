@@ -30,17 +30,18 @@ export function Navigation() {
             >
               Projeler
             </Link>
-            <Link
-              href="/#team"
-              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Ekip
-            </Link>
+
             <Link
               href="/#about"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
             >
               Hakkımızda
+            </Link>
+            <Link
+              href="/#team"
+              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Ekip
             </Link>
             <Link href="/#contact">
               <Button size="sm">İletişim</Button>
@@ -83,13 +84,6 @@ export function Navigation() {
               onClick={() => setMobileMenuOpen(false)}
             >
               Hakkımızda
-            </Link>
-            <Link
-              href="/#faq"
-              className="block text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              FAQ
             </Link>
             <Link href="/#contact" onClick={() => setMobileMenuOpen(false)}>
               <Button size="sm" className="w-full">

@@ -1,90 +1,59 @@
-# TMT – Teknoloji ve Mekatronik Takımı Web Sitesi
+# TMT – Teknoloji ve Mekatronik Takımı
 
-🌐 **Canlı Site:** (https://tfltmt-website.vercel.app)
+Web sitesi: [tfltmt-website.vercel.app](https://tfltmt-website.vercel.app)
 
-Bu proje, **Tofaş Fen Lisesi Teknoloji ve Mekatronik Takımı (TMT)** için hazırlanmış resmi tanıtım web sitesidir. Site; takımın amacı, projeleri, ekip üyeleri ve iletişim bilgilerini sunmak amacıyla geliştirilmiştir.
+Tofaş Fen Lisesi Teknoloji ve Mekatronik Takımı (TMT) için geliştirilmiş resmi tanıtım web sitesi.
 
----
+## Hakkında
 
-## 📌 Proje Amacı
+TMT, drone yarışmaları, robotik projeleri ve teknoloji araştırmaları üzerinde çalışan bir lise kulübüdür. Bu web sitesi takımın çalışmalarını, projelerini ve ekibini tanıtmak amacıyla oluşturulmuştur.
 
-Bu web sitesinin temel hedefleri:
+## Proje İçeriği
 
-* TMT kulübünü dijital ortamda profesyonel şekilde tanıtmak
-* Yapılan projeleri sergilemek
-* Yeni üyelere ve iş birliklerine kapı açmak
-* Yarışma, etkinlik ve teknik çalışmalar için merkezi bir vitrin oluşturmak
+- **Ana Sayfa**: Takım tanıtımı ve istatistikler
+- **Projeler**: Döner Kanat İHA, FPV Drone, VEX Robotics detay sayfaları
+- **Ekip**: Bölümlere göre organize edilmiş üye profilleri (Elektronik & Yazılım, 3D Tasarım & Mekanik, Reklamcılık)
+- **Galeri**: Yarışmalar ve atölye etkinlik fotoğrafları
+- **Başarılar**: Timeline formatında yarışma başarıları
+- **Sponsorlar**: Paketli sponsorluk seçenekleri
+- **SSS**: Sık sorulan sorular ve cevaplar
+- **İletişim**: Formspree entegrasyonlu iletişim formu
 
----
+## Teknolojiler
 
-## 🧩 Site İçeriği
+- **Framework**: Next.js 16 (App Router)
+- **Stil**: Tailwind CSS 4 + shadcn/ui
+- **İkonlar**: Lucide React
+- **Deployment**: Vercel
+- **Form**: Formspree
+- **Animasyonlar**: CSS Keyframes + React Framer Motion patterns
 
-Web sitesinde aşağıdaki bölümler bulunmaktadır:
+## Başlangıç
 
-* **Ana Sayfa**
-  Kulübün kısa tanıtımı ve ana odak alanları
+```bash
+npm install
+npm run dev
+```
 
-* **Projeler**
-  İHA, robotik ve teknoloji tabanlı çalışmaların özetleri
+## Özellikleri
 
-* **Ekip**
-  Elektronik, yazılım, mekanik vb. alanlardaki ekip üyeleri
+- Responsive tasarım (mobil optimized)
+- Gerçek zamanlı countdown timerları
+- Açık/kapanır accordion bileşenleri
+- Smooth page transitions
+- 3D floating card animasyonları
+- Proje detay sayfaları
+- Sosyal medya entegrasyonu
 
-* **Hakkımızda**
-  Kulübün vizyonu, misyonu ve çalışma alanları
+## Katkıda Bulunma
 
-* **İletişim**
-  İletişim formu ve resmi e-posta adresi
+Bu proje ekip üyeleri tarafından maintain edilmektedir. Değişiklikler için pull request gönderebilirsiniz.
 
----
+## İletişim
 
-## 🛠 Kullanılan Teknolojiler
+📧 **E-posta**: tofasfentmt@gmail.com  
+📱 **Instagram**: [@tofasfentmt](https://www.instagram.com/tofasfentmt)
 
-Bu proje **Vercel** üzerinde barındırılmaktadır ve arayüz geliştirme sürecinde **v0 by Vercel** araçlarından faydalanılmıştır.
+## Lisans
 
-Kullanılan / olası teknolojiler:
-
-* Vercel (Deployment & Hosting)
-* Modern web teknolojileri (HTML, CSS, JavaScript)
-* v0 (UI üretimi ve prototipleme)
-
-> Not: Projenin kullandığı framework (Next.js vb.) repo yapısına göre netleştirilebilir.
-
----
-
-## 🚀 Yayınlama (Deployment)
-
-Proje Vercel üzerinden otomatik olarak dağıtılmaktadır.
-
-Genel akış:
-
-1. Kod deposuna değişiklikler gönderilir (push).
-2. Vercel otomatik build alır.
-3. Build başarılı olursa site canlıya güncellenir.
-
----
-
-## 👥 Katkıda Bulunma
-
-Bu proje bir **okul kulübü çalışmasıdır**. Katkı sağlamak isteyen ekip üyeleri:
-
-* Mevcut kod yapısına uygun çalışmalı
-* Anlaşılır commit mesajları kullanmalı
-* Ana sürümü etkileyecek değişiklikleri ekip içinde değerlendirmelidir
-
----
-
-## 📬 İletişim
-
-📧 **E-posta:** [tofasfentmt@gmail.com](mailto:tofasfentmt@gmail.com)
-
-Ayrıca web sitesindeki **İletişim** formu üzerinden de bize ulaşabilirsiniz.
-
----
-
-## 📄 Lisans
-
-Bu proje için lisans bilgisi henüz belirtilmemiştir.
-İhtiyaca göre **MIT** veya benzeri bir açık kaynak lisansı eklenebilir.
-
----
+Bu proje MIT lisansı altında lisanslanmıştır.

@@ -46,7 +46,7 @@ export function AboutSection() {
                 doldurabilirsiniz.
               </p>
               <Link
-                href="https://docs.google.com/forms/d/1pd0rUDCUqGiR_yuounAeBwm_HhlNRGZXM_8OUbyljjU/edit"
+                href="https://bit.ly/4sqqHzf"
                 target="_blank"
                 rel="noopener noreferrer"
               >

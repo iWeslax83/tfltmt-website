@@ -7,9 +7,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
-import { Mail, Instagram, ExternalLink, UserPlus } from "lucide-react"
+import { Mail, Instagram, ExternalLink } from "lucide-react"
 import { useState } from "react"
-import Link from "next/link"
 
 const contactInfo = {
   email: "tofasfentmt@gmail.com",
@@ -42,33 +41,6 @@ export function ContactSection() {
               Projelerimizle ilgileniyor veya işbirliği yapmak mı istiyorsunuz? Bize ulaşın.
             </p>
           </div>
-
-          <Card className="mb-6 bg-primary/5 border-primary/20">
-            <CardContent className="pt-6">
-              <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-center px-0 py-0">
-                <div className="text-center sm:text-left">
-                  <h3 className="font-semibold text-lg mb-1 flex justify-center leading-7 items-center flex-row sm:justify-start gap-1.5">
-                    <UserPlus className="h-5 w-5 text-primary" />
-                    TMT Kulübüne Katılmak İster misiniz?
-                  </h3>
-                  <p className="text-sm text-muted-foreground">
-                    Başvuru formunu doldurarak ekibimize katılabilirsiniz.
-                  </p>
-                </div>
-                <Link
-                  href="https://docs.google.com/forms/d/1pd0rUDCUqGiR_yuounAeBwm_HhlNRGZXM_8OUbyljjU/edit"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Button className="whitespace-nowrap">
-                    Başvuru Formu
-                    <ExternalLink className="ml-2 h-4 w-4" />
-                  </Button>
-                </Link>
-              </div>
-            </CardContent>
-          </Card>
-
           <Card>
             <CardHeader>
               <CardTitle>İletişim Formu</CardTitle>
