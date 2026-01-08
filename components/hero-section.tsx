@@ -100,7 +100,7 @@ export function HeroSection() {
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
               <Link
-                href="https://bit.ly/4sqqHzf"
+                href="https://forms.gle/DbbZK2PDZMQY3CnM8"
                 target="_blank"
                 rel="noopener noreferrer"
               >

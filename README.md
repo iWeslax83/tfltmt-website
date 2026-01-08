@@ -13,10 +13,7 @@ TMT, drone yarışmaları, robotik projeleri ve teknoloji araştırmaları üzer
 - **Ana Sayfa**: Takım tanıtımı ve istatistikler
 - **Projeler**: Döner Kanat İHA, FPV Drone, VEX Robotics detay sayfaları
 - **Ekip**: Bölümlere göre organize edilmiş üye profilleri (Elektronik & Yazılım, 3D Tasarım & Mekanik, Reklamcılık)
-- **Galeri**: Yarışmalar ve atölye etkinlik fotoğrafları
-- **Başarılar**: Timeline formatında yarışma başarıları
 - **Sponsorlar**: Paketli sponsorluk seçenekleri
-- **SSS**: Sık sorulan sorular ve cevaplar
 - **İletişim**: Formspree entegrasyonlu iletişim formu
 
 ## Teknolojiler
@@ -27,13 +24,6 @@ TMT, drone yarışmaları, robotik projeleri ve teknoloji araştırmaları üzer
 - **Deployment**: Vercel
 - **Form**: Formspree
 - **Animasyonlar**: CSS Keyframes + React Framer Motion patterns
-
-## Başlangıç
-
-```bash
-npm install
-npm run dev
-```
 
 ## Özellikleri
 
