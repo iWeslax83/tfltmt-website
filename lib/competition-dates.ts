@@ -7,7 +7,7 @@ export interface CompetitionDate {
 export const competitionDates: CompetitionDate[] = [
   {
     name: "FPV Döner Kanat İHA Yarışması",
-    date: new Date("2026-01-06"),
+    date: new Date("2026-06-01"),
     description: "FPV Döner Kanat kategorisi için MEB İnsansız Hava Aracı yarışması",
   },
   {

@@ -88,9 +88,9 @@ export function HeroSection() {
             </div>
 
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-balance">
-              <span className="text-foreground">Teknoloji ve Mekatronik Takımı</span>
-              <br />
               <span className="text-primary bg-clip-text tracking-normal">TMT</span>
+              <br />
+              <span className="text-foreground">Türbinli Motor Teknolojileri</span>
             </h1>
 
             <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto text-pretty leading-relaxed">

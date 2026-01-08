@@ -2,11 +2,22 @@
 
 import { Card, CardHeader } from "@/components/ui/card"
 import { Avatar, AvatarFallback } from "@/components/ui/avatar"
-import { Cpu, Cable as Cube, Megaphone } from "lucide-react"
+import { Crown, Cpu, Cable as Cube, Megaphone } from "lucide-react"
 import { AnimatedSection } from "@/components/animated-section"
 import { Floating3DCard } from "@/components/floating-3d-card"
 
 const departments = [
+    {
+    name: "Kaptanlar",
+    icon: Crown,
+    color: "text-blue-500",
+    bgColor: "bg-blue-500/10",
+    members: [
+      { name: "Arda Akalın", role: "Kaptan", initials: "AA" },
+      { name: "Sualp Çelik", role: "Kaptan", initials: "SÇ" },
+      { name: "Emir Sakarya", role: "Kaptan Yardımcısı", initials: "ES" },
+    ],
+  },
   {
     name: "Elektronik & Yazılım",
     icon: Cpu,

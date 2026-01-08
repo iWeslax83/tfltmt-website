@@ -45,9 +45,9 @@ export function ContactSection() {
 
           <Card className="mb-6 bg-primary/5 border-primary/20">
             <CardContent className="pt-6">
-              <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+              <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-center px-0 py-0">
                 <div className="text-center sm:text-left">
-                  <h3 className="font-semibold text-lg mb-1 flex items-center gap-2 justify-center sm:justify-start">
+                  <h3 className="font-semibold text-lg mb-1 flex justify-center leading-7 items-center flex-row sm:justify-start gap-1.5">
                     <UserPlus className="h-5 w-5 text-primary" />
                     TMT Kulübüne Katılmak İster misiniz?
                   </h3>
