@@ -1,4 +1,4 @@
-import { Helicopter, Drone, Cpu, type LucideIcon} from "lucide-react"
+import { Helicopter, Drone, Cpu, type LucideIcon } from "lucide-react"
 
 export interface ProjectMember {
   name: string
@@ -63,7 +63,7 @@ export const projects: Project[] = [
     longDescription:
       "MEB İnsansız Hava Aracı Yarışması FPV Döner Kanat kategorisi için geliştirdiğimiz FPV drone, yüksek hız, hassas kontrol ve gerçek zamanlı görüntü aktarımı özelliklerine sahiptir. Yarışma kurallarına göre tasarlanan drone'umuz, belirlenen parkurları başarıyla tamamlayabilecek çevikliğe ve dayanıklılığa sahiptir. Proje kapsamında FPV sistemleri, uçuş kontrolcüsü ayarları, batarya yönetimi ve pilot eğitimi çalışmaları yapılmaktadır. Daha fazla bilgi için: https://robot.meb.gov.tr/insansiz-hava-araci/iha-yarisma-kurallari",
     members: ["Emir Sakarya", "Demir Özcan", "Erdem Gümüş", "İbrahim Özdemir", "Arda Akalın"],
-    competitionDate: new Date("2026-05-06"),
+    competitionDate: new Date("2026-01-06"),
     technicalSpecs: [
       { label: "Maksimum Hız", value: "170 km/s" },
       { label: "Uçuş Süresi", value: "5-10 dk" },

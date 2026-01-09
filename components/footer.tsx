@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { Github } from "lucide-react"
 
 export function Footer() {
   return (
@@ -26,13 +27,20 @@ export function Footer() {
             <Link href="/#contact" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
               İletişim
             </Link>
+            <a
+              href="https://github.com/iWeslax83/tfltmt-website"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs text-muted-foreground hover:text-foreground transition-colors flex items-center gap-1"
+            >
+              <Github className="h-3 w-3" />
+              Kaynak Kod
+            </a>
           </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-border text-center">
-          <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} TMT. Özveriyle inşa edildi.
-          </p>
+          <p className="text-xs text-muted-foreground">© {new Date().getFullYear()} TMT. Özveriyle inşa edildi.</p>
         </div>
       </div>
     </footer>
