@@ -12,28 +12,13 @@ export function Footer() {
           </div>
 
           <div className="flex gap-6">
-            <Link href="/#home" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
-              Ana Sayfa
-            </Link>
-            <Link href="/#about" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
-              Hakkımızda
-            </Link>
-            <Link href="/#projects" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
-              Projeler
-            </Link>
-            <Link href="/#team" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
-              Ekip
-            </Link>
-            <Link href="/#contact" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
-              İletişim
-            </Link>
             <a
               href="https://github.com/iWeslax83/tfltmt-website"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-xs text-muted-foreground hover:text-foreground transition-colors flex items-center gap-1"
+              className="text-l text-muted-foreground hover:text-foreground transition-colors flex items-center gap-1"
             >
-              <Github className="h-3 w-3" />
+              <Github className="h-7 w-7" />
               Kaynak Kod
             </a>
           </div>

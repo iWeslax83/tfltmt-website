@@ -25,18 +25,18 @@ export function Navigation() {
               Ana Sayfa
             </Link>
             <Link
+              href="/#about"
+              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Hakkımızda
+            </Link>
+            <Link
               href="/#projects"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
             >
               Projeler
             </Link>
 
-            <Link
-              href="/#about"
-              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Hakkımızda
-            </Link>
             <Link
               href="/#team"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
