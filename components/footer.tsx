@@ -15,14 +15,14 @@ export function Footer() {
             <Link href="/#home" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
               Ana Sayfa
             </Link>
+            <Link href="/#about" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
+              Hakkımızda
+            </Link>
             <Link href="/#projects" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
               Projeler
             </Link>
             <Link href="/#team" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
               Ekip
-            </Link>
-            <Link href="/#about" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
-              Hakkımızda
             </Link>
             <Link href="/#contact" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
               İletişim
