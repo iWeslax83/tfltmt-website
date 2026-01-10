@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 import { useState } from "react"
@@ -13,7 +14,15 @@ export function Navigation() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-            TMT
+            <Image
+              src="/images/tmt-logo.png"
+              alt="TMT Logo"
+              width={40}
+              height={40}
+              className="rounded-full"
+              unoptimized
+            />
+            <span className="font-bold text-lg">TMT</span>
           </Link>
 
           {/* Desktop Navigation */}
