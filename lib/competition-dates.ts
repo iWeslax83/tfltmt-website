@@ -4,20 +4,21 @@ export interface CompetitionDate {
   description: string
 }
 
+// Yarisma Tarihleri - Guncellemek icin buraya bakin
 export const competitionDates: CompetitionDate[] = [
   {
-    name: "FPV Döner Kanat İHA Yarışması",
-    date: new Date("2026-05-06"),
-    description: "FPV Döner Kanat kategorisi için MEB İnsansız Hava Aracı yarışması",
+    name: "FPV Doner Kanat IHA Yarismasi",
+    date: new Date("2026-01-06"), // 6 Ocak 2026
+    description: "FPV Doner Kanat kategorisi icin MEB Insansiz Hava Araci yarismasi",
   },
   {
-    name: "TEKNOFEST Liseler Arası İHA",
-    date: new Date("2026-06-08"),
-    description: "Döner Kanat kategorisi için ulusal yarışma",
+    name: "TEKNOFEST Liseler Arasi IHA",
+    date: new Date("2026-09-30"), // 30 Eylul 2026
+    description: "Doner Kanat kategorisi icin ulusal yarisma",
   },
   {
     name: "VEX Robotics Pushback",
-    date: new Date("2026-02-28"),
-    description: "VEX V5 2025-2026 sezon Pushback yarışması (kesin tarih TBD)",
+    date: new Date("2026-03-15"), // 15 Mart 2026 (tahmini)
+    description: "VEX V5 2025-2026 sezon Pushback yarismasi (kesin tarih TBD)",
   },
 ]

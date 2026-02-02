@@ -1,4 +1,4 @@
-import { Helicopter, Drone, Cpu, type LucideIcon } from "lucide-react"
+import { LucideComputer as Helicopter, Plane, Cpu, Type as type, type LucideIcon, Bone as Drone } from "lucide-react"
 
 export interface ProjectMember {
   name: string
@@ -57,7 +57,7 @@ export const projects: Project[] = [
     slug: "fpv-doner-kanat-iha",
     name: "FPV Döner Kanat İHA",
     competition: "MEB Robot FPV İnsansız Hava Aracı Yarışması - İHA Döner Kanat Kategorisi",
-    icon: Drone,
+    icon: Plane,
     description:
       "Gerçek zamanlı FPV görüntü aktarımı, yüksek manevra kabiliyeti ve yarış senaryolarına özel tasarlanmış FPV drone.",
     longDescription:
