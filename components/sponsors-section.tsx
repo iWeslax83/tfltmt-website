@@ -98,7 +98,7 @@ export function SponsorsSection() {
             href="#contact"
             className="inline-block bg-cyan-500 hover:bg-cyan-600 text-slate-950 font-bold py-3 px-8 rounded-lg transition-colors"
           >
-            Bize Ulasin
+            Bize Ulaşın
           </a>
         </div>
       </div>
