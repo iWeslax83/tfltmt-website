@@ -1,33 +1,43 @@
 "use client"
 
-import { Users2 } from "lucide-react"
+import { Users2, HeartHandshake } from "lucide-react"
 
 interface Sponsor {
   name: string
-  category: "Platinum" | "Gold" | "Silver"
+  category: "Elmas" | "Altin" | "Gumus"
   description: string
 }
 
-const sponsors: Sponsor[] = [
-  {
-    name: "Şuanda yok",
-    category: "Elmas",
-    description: "Ana sponsor",
-  },
-]
+// Sponsor eklemek icin bu array'e ekleyin
+const sponsors: Sponsor[] = []
 
 export function SponsorsSection() {
   const platinumSponsors = sponsors.filter((s) => s.category === "Elmas")
   const goldSponsors = sponsors.filter((s) => s.category === "Altin")
   const silverSponsors = sponsors.filter((s) => s.category === "Gumus")
 
+  const hasSponsors = sponsors.length > 0
+
   return (
     <section id="sponsorlar" className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-white mb-4">Destekleyen Kurumlar</h2>
-          <p className="text-lg text-slate-300">TMT'yi destekleyen kurumlar/kuruluşlar</p>
+          <p className="text-lg text-slate-300">TMT'yi destekleyen kurumlar ve kuruluslar</p>
         </div>
+
+        {/* Sponsor yoksa goster */}
+        {!hasSponsors && (
+          <div className="mb-12 text-center">
+            <div className="bg-slate-900/50 rounded-xl p-12 border border-slate-800">
+              <HeartHandshake className="w-16 h-16 text-slate-600 mx-auto mb-6" />
+              <h3 className="text-2xl font-bold text-slate-400 mb-3">Su anda aktif bir sponsorumuz bulunmamaktadir</h3>
+              <p className="text-slate-500 max-w-md mx-auto">
+                TMT'nin ilk sponsoru olmak ve projelerimize destek vermek ister misiniz? Bizimle iletisime gecin.
+              </p>
+            </div>
+          </div>
+        )}
 
         {/* Platinum Sponsors */}
         {platinumSponsors.length > 0 && (
@@ -53,7 +63,7 @@ export function SponsorsSection() {
         {/* Gold Sponsors */}
         {goldSponsors.length > 0 && (
           <div className="mb-12">
-            <h3 className="text-2xl font-bold text-yellow-500 mb-8 text-center">Altın Sponsorlar</h3>
+            <h3 className="text-2xl font-bold text-yellow-500 mb-8 text-center">Altin Sponsorlar</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {goldSponsors.map((sponsor, index) => (
                 <div
@@ -74,7 +84,7 @@ export function SponsorsSection() {
         {/* Silver Sponsors */}
         {silverSponsors.length > 0 && (
           <div className="mb-12">
-            <h3 className="text-2xl font-bold text-gray-400 mb-8 text-center">Gümüş Sponsorlar</h3>
+            <h3 className="text-2xl font-bold text-gray-400 mb-8 text-center">Gumus Sponsorlar</h3>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
               {silverSponsors.map((sponsor, index) => (
                 <div
@@ -97,10 +107,10 @@ export function SponsorsSection() {
           <h3 className="text-2xl font-bold text-white mb-3">TMT'yi Sponsorlamak Ister misiniz?</h3>
           <p className="text-slate-300 mb-6">Bize ulasarak sponsorluk firsatlarini kesfedebilirsiniz</p>
           <a
-            href="#iletisim"
+            href="#contact"
             className="inline-block bg-cyan-500 hover:bg-cyan-600 text-slate-950 font-bold py-3 px-8 rounded-lg transition-colors"
           >
-            Bize Ulasın
+            Bize Ulasin
           </a>
         </div>
       </div>

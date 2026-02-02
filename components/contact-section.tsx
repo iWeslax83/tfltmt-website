@@ -87,7 +87,7 @@ export function ContactSection() {
               </form>
 
               <div className="mt-8 pt-8 border-t border-border space-y-4">
-                <p className="text-sm font-semibold text-foreground mb-4">İletişim Bilgileri</p>
+                <p className="text-sm font-semibold text-foreground mb-4">Iletisim Bilgileri</p>
                 <div className="space-y-3">
                   <div className="flex items-center gap-3 text-sm">
                     <Mail className="h-4 w-4 text-primary" />
@@ -95,6 +95,7 @@ export function ContactSection() {
                       {contactInfo.email}
                     </a>
                   </div>
+                  {/* Instagram - suanlik gizli
                   <div className="flex items-center gap-3 text-sm">
                     <Instagram className="h-4 w-4 text-primary" />
                     <a
@@ -107,9 +108,11 @@ export function ContactSection() {
                       <ExternalLink className="h-3 w-3" />
                     </a>
                   </div>
+                  */}
                 </div>
               </div>
 
+              {/* Sosyal medya - suanlik gizli
               <div className="mt-8 pt-8 border-t border-border">
                 <p className="text-sm text-muted-foreground mb-4 text-center">Sosyal medyada bizi takip edin</p>
                 <div className="flex justify-center gap-4">
@@ -121,6 +124,7 @@ export function ContactSection() {
                   </Button>
                 </div>
               </div>
+              */}
             </CardContent>
           </Card>
         </div>
