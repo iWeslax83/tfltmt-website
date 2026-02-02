@@ -9,7 +9,7 @@ interface Sponsor {
 }
 
 // Sponsor eklemek icin bu array'e ekleyin
-const sponsors: Sponsor[] = []
+const sponsors: Sponsor[] = ["Merhaba"]
 
 export function SponsorsSection() {
   const platinumSponsors = sponsors.filter((s) => s.category === "Elmas")
