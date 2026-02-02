@@ -1,15 +1,19 @@
-import { LucideComputer as Helicopter, Plane, Cpu, Type as type, type LucideIcon, Bone as Drone } from "lucide-react"
+import { Cpu } from "lucide-react"
+import { DroneIcon, HelicopterIcon } from "@/components/custom-icons"
+import type { ComponentType, SVGProps } from "react"
 
 export interface ProjectMember {
   name: string
   role?: string
 }
 
+type IconType = ComponentType<SVGProps<SVGSVGElement>>
+
 export interface Project {
   slug: string
   name: string
   competition: string
-  icon: LucideIcon
+  icon: IconType
   description: string
   longDescription: string
   members: string[]
