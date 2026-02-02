@@ -10,7 +10,7 @@ interface Sponsor {
 
 const sponsors: Sponsor[] = [
   {
-    name: "Sponsor 1",
+    name: "Şuanda yok",
     category: "Elmas",
     description: "Ana sponsor",
   },
