@@ -19,6 +19,7 @@ export default function Page() {
         <AboutSection />
         <ProjectsSection />
         <TeamSection />
+        <SponsorsSection />
         <ContactSection />
       </main>
       <Footer />
