@@ -16,7 +16,7 @@ export const competitionDates: CompetitionDate[] = [
     description: "Döner Kanat kategorisi için ulusal yarışma",
   },
   {
-    name: "VEX Robotics Pushback",s
+    name: "VEX Robotics Pushback",
     date: new Date("2026-02-28"),
     description: "VEX V5 2025-2026 sezon Pushback yarışması (kesin tarih TBD)",
   },
