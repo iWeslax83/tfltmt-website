@@ -104,8 +104,8 @@ export function SponsorsSection() {
 
         {/* Call to Action */}
         <div className="mt-16 bg-slate-900 rounded-lg p-8 border border-cyan-500/20 text-center">
-          <h3 className="text-2xl font-bold text-white mb-3">TMT'yi Sponsorlamak Ister misiniz?</h3>
-          <p className="text-slate-300 mb-6">Bize ulasarak sponsorluk firsatlarini kesfedebilirsiniz</p>
+          <h3 className="text-2xl font-bold text-white mb-3">TMT'yi Sponsorlamak İster Misiniz?</h3>
+          <p className="text-slate-300 mb-6">Bize ulaşarak sponsorluk fırsatlarını keşfedebilirsiniz</p>
           <a
             href="#contact"
             className="inline-block bg-cyan-500 hover:bg-cyan-600 text-slate-950 font-bold py-3 px-8 rounded-lg transition-colors"
