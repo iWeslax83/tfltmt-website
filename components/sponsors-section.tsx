@@ -18,8 +18,8 @@ const sponsors: Sponsor[] = [
 
 export function SponsorsSection() {
   const platinumSponsors = sponsors.filter((s) => s.category === "Elmas")
-  const goldSponsors = sponsors.filter((s) => s.category === "Altın")
-  const silverSponsors = sponsors.filter((s) => s.category === "Gümüş")
+  const goldSponsors = sponsors.filter((s) => s.category === "Altin")
+  const silverSponsors = sponsors.filter((s) => s.category === "Gumus")
 
   return (
     <section id="sponsorlar" className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950">
