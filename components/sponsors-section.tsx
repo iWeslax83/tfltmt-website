@@ -28,9 +28,9 @@ export function SponsorsSection() {
           <div className="mb-12 text-center">
             <div className="bg-slate-900/50 rounded-xl p-12 border border-slate-800">
               <HeartHandshake className="w-16 h-16 text-slate-600 mx-auto mb-6" />
-              <h3 className="text-2xl font-bold text-slate-400 mb-3">Su anda aktif bir sponsorumuz bulunmamaktadir</h3>
+              <h3 className="text-2xl font-bold text-slate-400 mb-3">Şu anda aktif bir sponsorumuz bulunmamaktadır</h3>
               <p className="text-slate-500 max-w-md mx-auto">
-                TMT'nin ilk sponsoru olmak ve projelerimize destek vermek ister misiniz? Bizimle iletisime gecin.
+                TMT'nin ilk sponsoru olmak ve projelerimize destek vermek ister misiniz? Bizimle iletişime geçin.
               </p>
             </div>
           </div>
