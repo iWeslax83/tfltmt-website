@@ -1,4 +1,4 @@
-import { Helicopter, Drone, Cpu, type LucideIcon } from "lucide-react"
+import { Helicopter, Plane, Cpu, type LucideIcon,Drone } from "lucide-react"
 
 export interface ProjectMember {
   name: string
