@@ -1,19 +1,15 @@
-import { Cpu } from "lucide-react"
-import { DroneIcon, HelicopterIcon } from "@/components/custom-icons"
-import type { ComponentType, SVGProps } from "react"
+import { Helicopter, Plane, Cpu, type LucideIcon,Drone } from "lucide-react"
 
 export interface ProjectMember {
   name: string
   role?: string
 }
 
-type IconType = ComponentType<SVGProps<SVGSVGElement>>
-
 export interface Project {
   slug: string
   name: string
   competition: string
-  icon: IconType
+  icon: LucideIcon
   description: string
   longDescription: string
   members: string[]
@@ -61,7 +57,7 @@ export const projects: Project[] = [
     slug: "fpv-doner-kanat-iha",
     name: "FPV Döner Kanat İHA",
     competition: "MEB Robot FPV İnsansız Hava Aracı Yarışması - İHA Döner Kanat Kategorisi",
-    icon: Plane,
+    icon: Drone,
     description:
       "Gerçek zamanlı FPV görüntü aktarımı, yüksek manevra kabiliyeti ve yarış senaryolarına özel tasarlanmış FPV drone.",
     longDescription:
