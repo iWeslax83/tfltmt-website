@@ -1,10 +1,13 @@
-import { kv } from '@vercel/kv';
+import Redis from 'ioredis';
+
+const redis = new Redis(process.env.REDIS_URL);
 
 export default async function handler(req, res) {
-  // 1. Increment the visitor count in Redis
-  const newCount = await kv.incr('visitor_count');
-
-  // 2. Return ONLY the number as plain text for the ESP32
-  res.setHeader('Content-Type', 'text/plain');
-  res.status(200).send(newCount.toString());
+  try {
+    const newCount = await redis.incr('hits');
+    res.setHeader('Content-Type', 'text/plain');
+    res.status(200).send(newCount.toString());
+  } catch (error) {
+    res.status(500).send("Redis Error");
+  }
 }
